@@ -7,7 +7,7 @@
     <PackageVersion>0.9.0</PackageVersion>
     <Authors>Andrew Palmer</Authors>
     <Description>A very simple to use .net standard 2.0 wrapper of the HealthAPI.com Covid19 API and data.</Description>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/CodeLifterIO/CodeLifter.HealthAPI.Covid19/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/CodeLifterIO/CodeLifter.HealthAPI.Covid19/blob/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageTags>Coronavirus, Health.com, Covid19</PackageTags>
   </PropertyGroup>
