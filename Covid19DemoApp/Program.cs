@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using CodeLifter.HealthAPI.Covid19;
 using CodeLifter.HealthAPI.Covid19.Models;
@@ -15,6 +14,7 @@ namespace Covid19DemoApp
         }
 
         static Statistic GlobalStats = null;
+        static Country Country = null;
         static List<Country> Countries = null;
         static List<State> States = null;
         static List<State> StatesByCountry = null;
@@ -26,6 +26,7 @@ namespace Covid19DemoApp
             Countries = await api.GetAllCountries();
             States = await api.GetAllStates();
             StatesByCountry = await api.GetStatesByCountry("us");
+            Country = await api.GetCountry("us");
         }
     }
 }
