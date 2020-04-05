@@ -1,20 +1,23 @@
 using System;
+using CodeLifter.HealthAPI.Covid19.Models;
 using Xunit;
 
 namespace CodeLifter.HealthAPI.Covid19.Test
 {
     public class Covid19APITest
     {
-        [Fact]
-        public void ReturnsNullWhenNoValidConnection()
+        private ICovid19Api api { get; set; }
+
+        public Covid19APITest()
         {
-            Assert.True(true);
+            api = new Covid19Api();
         }
 
         [Fact]
-        public void ReturnsStatisticWhenGetGlobalStatisticsIsCalled()
+        public async void ReturnsStatisticWhenGetGlobalStatisticsIsCalled()
         {
-
+            Statistic global = await api.GetGlobalStatistics();
+            Assert.NotNull(global);
         }
     }
 }
