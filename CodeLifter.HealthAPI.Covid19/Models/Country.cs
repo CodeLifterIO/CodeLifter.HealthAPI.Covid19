@@ -13,14 +13,5 @@ namespace CodeLifter.HealthAPI.Covid19.Models
 
         [JsonProperty("country_code", NullValueHandling = NullValueHandling.Ignore)]
         public string CountryCode { get; set; }
-
-        //[JsonProperty("confirmed", NullValueHandling = NullValueHandling.Ignore)]
-        //public long? Confirmed { get; set; }
-
-        //[JsonProperty("deaths", NullValueHandling = NullValueHandling.Ignore)]
-        //public long? Deaths { get; set; }
-
-        //[JsonProperty("recovered", NullValueHandling = NullValueHandling.Ignore)]
-        //public long? Recovered { get; set; }
     }
 }
