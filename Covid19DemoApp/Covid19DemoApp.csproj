@@ -67,7 +67,10 @@
       <HintPath>..\packages\Unity.5.8.13\lib\net47\Unity.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="CodeLifter.Http">
-      <HintPath>..\packages\CodeLifter.Http.1.1.0\lib\netstandard2.0\CodeLifter.Http.dll</HintPath>
+      <HintPath>..\packages\CodeLifter.Http.1.5.0\lib\netstandard2.0\CodeLifter.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeLifter.Logging">
+      <HintPath>..\packages\CodeLifter.Logging.0.8.1\lib\netstandard2.0\CodeLifter.Logging.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
